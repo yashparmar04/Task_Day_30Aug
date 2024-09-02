@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/yashparmar04/Task_Day_30Aug'
+                git 'https://github.com/yashparmar04/Task_Day_30Aug.git'
             }
         }
         stage('Build Docker Image') {
